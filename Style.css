@@ -7,7 +7,7 @@ html {
 }
 
 .hero {
-  background: url('images/hero.jpg') center center/cover no-repeat;
+  background: url('hero.jpg') center center/cover no-repeat;
   height: 80vh;
   position: relative;
 }
