@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: url('images/hero.jpg') center center/cover no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}
+
+.btn-primary {
+  background-color: #ff6f61;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e85b50;
+}
+
+.restaurant-card,
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restaurant-card:hover,
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer .social-icons a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #ff6f61;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+
